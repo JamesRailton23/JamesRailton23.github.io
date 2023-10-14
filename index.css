@@ -2,8 +2,23 @@
     background-color: lightgray;
     background-image: url(topherobackground.jpg);
     background-size: cover;
+    height: 100vh;
+    padding-bottom: 50px;
 }
 .myphoto{
     padding-top: 20px;
     padding-bottom: 20px;
+}
+.line{
+    border-top: 1px solid black;
+    border-color: grey;
+}
+#skills {
+    padding-top: 50px;
+}
+@media (max-width: 768px) {
+    .introduction {
+        height: auto;
+        padding-bottom: 0;
+    }
 }
