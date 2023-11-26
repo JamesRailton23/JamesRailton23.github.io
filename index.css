@@ -1,9 +1,16 @@
 .introduction{
-    background-color: lightgray;
+    
     background-image: url(topherobackground.jpg);
     background-size: cover;
     height: 100vh;
     padding-bottom: 50px;
+}
+.nvbar{
+    background-color:rgb(44, 53, 57)
+    
+}
+.page_footer{
+    background-color:rgb(44,53,57);
 }
 .myphoto{
     padding-top: 20px;
@@ -12,6 +19,14 @@
 .line{
     border-top: 1px solid black;
     border-color: grey;
+}
+.about_me_statement{
+    font-size: 23px;
+    text-align: justify;
+    text-justify: inter-word;
+}
+.fontsize{
+    font-size: 23px;
 }
 #skills {
     padding-top: 50px;
